@@ -1,0 +1,210 @@
+@media only screen and (max-width: 1980px) {
+    .navBar{
+        width: 70%;
+    }
+    .wrapper{
+        top: 31%;
+        padding-top: 50px;
+        height: 450px;
+    }
+    #Home{
+        flex-direction: row;
+    }
+    .sec1Img{
+        top: 35%;
+        right: 10%;
+        height: 250px;
+        width: 250px;
+    }
+    .sec1Txt{
+        top: 35%;
+        left: 10%;
+    }
+    .sec1Txt2{
+        top: 75%;
+        left: 10%;
+        max-width: 30%;
+    }
+    .txt{
+        word-spacing: 5px;
+        font-size: 1.5rem;
+        background: linear-gradient(white 40%, yellow 70%, lime 20%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #Experiance{
+        flex-direction: row;
+    }
+    .Exp2{
+        width: 67%;
+        height: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 1350px){
+    .wrapper{
+        top: 27%;
+    }
+    .screen{
+        overflow-y: scroll;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .wrapper{
+        top: 23%;
+        padding-top: 20px;
+        height: 1000px;
+    }
+    #Home{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec1Img{
+        order: 1;
+        top: 25%;
+    }
+    .sec1Txt{
+        order: 2;
+        top: 25%;
+        min-width: 415px;
+    }
+    .sec1Txt2{
+        order: 3;
+        top: 65%;
+        min-width: 415px;
+    }
+    #Experiance{
+        flex-direction: column;
+    } 
+    .Exp2{
+        margin-top: 20px;
+        width: 95%;
+        height: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .wrapper{
+        top: 20%;
+    }
+    .sec1Img{
+        top: 25%;
+    }
+    .sec1Txt{
+        top: 25%;
+    }
+    .sec1Txt2{
+        top: 65%;
+    }
+
+    .txt{
+        font-size: 1.25rem;
+        background: none;
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: yellow;
+    }   
+}
+
+@media only screen and (max-width: 900px) {
+    .wrapper{
+        top: 18%;
+    }
+    .sec1Img{
+        top: 20%;
+    }
+    .sec1Txt{
+        top: 20%;
+    }
+    .sec1Txt2{
+        top: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .wrapper{
+        top: 16%;
+    }
+    .navBar{
+        width: 70%;
+    }
+    .sec1Img{
+        left: 50%;
+        height: 200px;
+        width: 200px;
+    }
+    .sec1Txt{
+        width: 395px;
+        top: 52%;
+        left: 50%;
+    }
+    .sec1Txt2{
+        top: 95%;
+        width: 330px;
+        left: 45%;
+    } 
+    .screen{
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .wrapper{
+        top: 15%;
+    }
+    .navBar{
+        width: 85%;
+    }
+    .sec1Img{
+        top: 20%;
+    }
+    .sec1Txt{
+        top: 50%;
+    }
+   
+}
+
+@media only screen and (max-width: 620px){
+    .Edu,
+    .Exp,
+    .Brd,
+    .Prj{
+        padding: 1px 0;
+        font-size: 0.75rem;
+        height: 40px;
+
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    .navBar{
+        width: 97%;
+
+        & ul{
+            font-size: 0.8rem;
+        }    
+    }
+    .wrapper{
+        top: 12%;
+    }
+    .sec1Img{
+        top: 15%;
+    }
+    .sec1Txt{
+        top: 45%;
+    }
+    .sec1Txt2{
+        margin-top: 10px;
+        top: 85%;
+    }
+    .middle{
+        font-size: 1.1rem;
+    }
+  
+
+}    
