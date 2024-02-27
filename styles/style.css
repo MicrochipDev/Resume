@@ -229,7 +229,7 @@ body{
 .Three,
 .Four,
 .Five,
-.Six
+.Six,
 .Seven {
     transition: 600ms ease-in-out;
 }
